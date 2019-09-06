@@ -21,3 +21,37 @@ set mouse=a
 noremap ,, <esc>
 cnoremap ,, <esc>
 inoremap ,, <esc>
+
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+" VIM-PLUG >>>
+""""""""""""""
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+
+Plug 'tomasr/molokai'
+Plug 'bling/vim-airline'
+Plug 'raimondi/delimitmate'
+Plug 'tpope/vim-markdown'
+Plug 'mhinz/vim-startify'
+
+" Initialize plugin system
+call plug#end()
+
+"Reload .vimrc and :PlugInstall to install plugins
+""""""""""""""
+" VIM-PLUG <<<
+
+
+colorscheme molokai
+" let g:molokai_original = 1
+" let g:rehash256 = 1
+
+
