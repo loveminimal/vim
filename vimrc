@@ -9,6 +9,12 @@ set t_Co=256
 set number
 set mouse=a
 
+" TAB
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
 
 
 " :map  :noremap    normal, visual, operator-pending
