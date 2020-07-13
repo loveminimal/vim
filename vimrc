@@ -8,6 +8,7 @@ set encoding=utf-8
 set t_Co=256
 set number
 set mouse=a
+set hlsearch
 
 " TAB
 set tabstop=4
