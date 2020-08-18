@@ -48,6 +48,7 @@ Plug 'bling/vim-airline'
 Plug 'raimondi/delimitmate'
 Plug 'tpope/vim-markdown'
 Plug 'mhinz/vim-startify'
+Plug 'tpope/vim-surround'
 
 " Initialize plugin system
 call plug#end()
