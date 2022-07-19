@@ -30,6 +30,20 @@ cnoremap ,, <esc>
 inoremap ,, <esc>
 
 
+let mapleader="\<space>"
+noremap <leader>qq :wq<CR>
+
+noremap <leader>wnn :sp<CR>
+noremap <leader>wn :vsp<CR>
+noremap <leader>wk :close<CR>
+noremap <leader>wo :only<CR>
+noremap <leader>ww :wincmd w<CR>
+
+noremap <leader>fs :w<CR>
+
+noremap <leader>sv :w<CR>:source ~/.vim/vimrc<CR>
+
+
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
