@@ -40,6 +40,7 @@ noremap <leader>wo :only<CR>
 noremap <leader>ww :wincmd w<CR>
 
 noremap <leader>fs :w<CR>
+noremap <leader>fj :NERDTreeToggle<CR>
 
 noremap <leader>sv :w<CR>:source ~/.vim/vimrc<CR>
 
@@ -63,6 +64,7 @@ Plug 'raimondi/delimitmate'
 Plug 'tpope/vim-markdown'
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree'
 
 " Initialize plugin system
 call plug#end()
