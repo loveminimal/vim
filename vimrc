@@ -41,6 +41,10 @@ noremap <leader>ww :wincmd w<CR>
 
 noremap <leader>fs :w<CR>
 noremap <leader>fj :NERDTreeToggle<CR>
+noremap <leader>jj :ls<CR>:buffer 
+noremap <leader>fl :ls<CR>
+noremap <leader>fn :bn<CR>
+noremap <leader>fp :bp<CR>
 
 noremap <leader>sv :w<CR>:source ~/.vim/vimrc<CR>
 
